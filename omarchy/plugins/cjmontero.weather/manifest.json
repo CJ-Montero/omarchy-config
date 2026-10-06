@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cjmontero.weather",
+  "name": "Weather (Spanish)",
+  "version": "1.0.0",
+  "author": "cjmontero",
+  "description": "Weather pill with detail popup - Spanish translation",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Weather (Spanish)",
+    "description": "Weather pill with detail popup - Spanish translation",
+    "category": "Info",
+    "allowMultiple": false,
+    "settingsForm": "weatherSettings"
+  },
+  "omarchy": {
+    "clonedFrom": "omarchy.weather"
+  }
+}

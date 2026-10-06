@@ -1,0 +1,29 @@
+# Backups
+*.bak.*
+*~
+*.bak
+
+# Secrets
+**/ssh/
+**/gpg/
+**/*.pem
+**/*.key
+**/secrets.*
+
+# Runtime / generated
+**/themed/
+**/cache/
+**/logs/
+**/*.log
+**/hyprland*.log
+**/socket*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
